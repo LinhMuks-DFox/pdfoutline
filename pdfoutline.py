@@ -114,7 +114,7 @@ def elist_to_gs(elist):
 
 def pdfoutline(inpdf, tocfilename, outpdf, gs='gs'):
 
-    with open(tocfilename) as f:
+    with open(tocfilename, encoding="utf-8") as f:
         toc = f.read()
         gs_command = elist_to_gs(toc_to_elist(toc))
 
