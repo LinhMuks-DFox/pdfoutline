@@ -27,7 +27,3 @@ Requirements:
 
 Please generate a complete catalogue toc file according to the above requirements.
 
-You can restart the same task next time by just copying and pasting the above prompt. I hope this organisation will be helpful to you!
-
-
-Translated with DeepL.com (free version)
