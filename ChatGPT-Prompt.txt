@@ -1,0 +1,33 @@
+Prompt: generating a catalogue (toc) file
+
+Context:
+I have a screenshot of a scanned version of a book with a table of contents. The requirement is to collate the table of contents information into a text file in a specific syntax format. The requirement is that the content must be complete, including all chapters, sub-chapters and page numbers, and that the hierarchy is distinguished by indentation. If the table of contents has page number offsets or other special commands (e.g. ‘+10’), these need to be preserved as well.
+
+Example of a table of contents format (toc format):
+```toc
+# This is a comment
+First Chapter 1
+    first section 1
+        first subsection 1
+    second section 4
+    third section 5
+
++Second Chapter 10
+
+Second Chapter 10
+    The Government of the Hong Kong Special Administrative Region
+    some entry 11
+```
+
+Requirements:
+	1. please read the text directly from the scanned screenshot of the table of contents without extracting it by writing code;
+	2. complete all chapters (including previously omitted Chapters 4, 5, 6 and 7) as well as subsequent chapters and appendices according to the contents of the table of contents shown in the image;
+	3. keep the level of entries clear, make sure that the chapter titles, sub-chapter titles and page numbers are correct;
+	4. The format of the output text should strictly comply with the above toc format requirements;
+
+Please generate a complete catalogue toc file according to the above requirements.
+
+You can restart the same task next time by just copying and pasting the above prompt. I hope this organisation will be helpful to you!
+
+
+Translated with DeepL.com (free version)
